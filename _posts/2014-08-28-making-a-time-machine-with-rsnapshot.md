@@ -76,7 +76,7 @@ sudo apt-get update
 sudo apt-get install rsnapshot
 ```
 
-Edit `/etc/snapshot.conf` and adjust the following settings:
+Edit `/etc/rsnapshot.conf` and adjust the following settings:
 
  - snapshot_root
  - no_create_root (value "1")
