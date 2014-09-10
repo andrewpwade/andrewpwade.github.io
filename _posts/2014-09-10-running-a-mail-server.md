@@ -100,8 +100,8 @@ contents of the server's disk whenever they choose and I, nor anyone,
 knows what access the UK government have to their network.
 
 That said, my main goal however was to learn more about email hosting
-and to be able to boast to PFYs that, of course, I ran my own mail
-server. 
+and to be able to boast to PFYs that of course I run my own mail
+server!
 
 I am sure I will receive more spam and face more deliverability issues
 in the future, so there will be lots more tweaking to do.
