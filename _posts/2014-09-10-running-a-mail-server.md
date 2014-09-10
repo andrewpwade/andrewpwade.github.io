@@ -82,7 +82,8 @@ This is the shell script to backup my Maildir which runs every other hour via cr
 DATESUFFIX=$(date +'%Y-%m-%dT%H:%M:%S')
 ARCHIVE=andrewwade.-maildir-$DATESUFFIX-$(date +%s)
 echo $ARCHIVE
-/usr/local/bin/tarsnap -v --keyfile /root/tarsnap.r_w.key --noisy-warnings -c -H -f "$ARCHIVE" /home/andrew/Maildir/
+/usr/local/bin/tarsnap -v --keyfile /root/tarsnap.r_w.key \
+ --noisy-warnings -c -H -f "$ARCHIVE" /home/andrew/Maildir/
 ```
 
 (N.B.: to restore, you need to know the exact filename. You may wish
