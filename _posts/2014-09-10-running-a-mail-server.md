@@ -28,7 +28,7 @@ Below are some notes on running your personal mail server.
 
 It is worth nothing that running your own mail server means that at
 some point you will encounter problems delivering email to your
-recipients. While you can [take steps to improve your chances](http://documentation.mailgun.com/best_practices.html]), at some point, a mail server will reject your mail, so it useful to
+recipients. While you can [take steps to improve your chances](http://documentation.mailgun.com/best_practices.html]), at some point, a mail server will reject your mail, so it is useful to
 configure your mail clients with an alternative SMTP server from a
 major mail provider such as Gmail, Yahoo or Microsoft.
 
