@@ -8,7 +8,7 @@ layout: post
 
 Today the embargo was lifted on Xen Security Advisory 108 (CVE-2014-7188). The full list of advisories can be seen at [here](http://xenbits.xen.org/xsa/).
 
-I could not help but be reminded of Theo de Raadt's frank eqloquent of x86 virtualisation from 2006:
+I could not help but be reminded of Theo de Raadt's eloquent of x86 virtualisation from 2006:
 
 > x86 virtualization is about basically placing another nearly full
 > kernel, full of new bugs, on top of a nasty x86 architecture which
