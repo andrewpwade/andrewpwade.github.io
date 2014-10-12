@@ -86,10 +86,7 @@ echo $ARCHIVE
  --noisy-warnings -c -H -f "$ARCHIVE" /home/andrew/Maildir/
 ```
 
-(N.B.: to restore, you need to know the exact filename. You may wish
-to adjust the archive naming scheme for example to not include the
-minute or second, so that archive names are easier to determine. When
-tarsnap runs with an existing archive, data is appended to it.)
+(N.B.: to restore, you need to know the exact filename.)
 
 # Summary
 
