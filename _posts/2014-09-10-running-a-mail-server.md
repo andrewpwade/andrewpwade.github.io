@@ -3,9 +3,6 @@ title: Notes on running your own mail server
 layout: post
 ---
 
-{{ page.title }}
-================
-
 Since June 2013, when Edward Snowden published those leaked documents,
 I have been running my own mail server. Why? Well, I wanted to have
 complete control of my email, hopefully more privacy and to learn more
@@ -58,7 +55,7 @@ mail, that is your job.
 
 I maintain three local copies of my Maildir with a basic shell script that runs hourly via cron:
 
-```
+{% highlight bash %}
 #!/bin/bash
 set -e
 set -o pipefail
@@ -68,7 +65,7 @@ cd /backups/mail/
 [ -e Maildir.tar.gz ] && mv -v Maildir.tar.gz Maildir.tar.gz.1
 ( GZIP=-1 tar hczf Maildir.tar.gz -C / /home/andrew/Maildir/ 3>&1 1>&2 2>&3 | \
  egrep  -v 'file changed as we read it|Removing leading' ) 3>&1 1>&2 2>&3
-```
+{% endhighlight %}
 
 For remote backups, I use [tarsnap](http://www.tarsnap.com), mainly
 due to the low cost (achieved with compression and deduplication) and
@@ -77,14 +74,14 @@ FreeBSD). It is backed by Amazon S3.
 
 This is the shell script to backup my Maildir which runs every other hour via cron:
 
-```
+{% highlight bash %}
 #!/bin/bash
 DATESUFFIX=$(date +'%Y-%m-%dT%H:%M:%S')
 ARCHIVE=andrewwade.-maildir-$DATESUFFIX-$(date +%s)
 echo $ARCHIVE
 /usr/local/bin/tarsnap -v --keyfile /root/tarsnap.r_w.key \
  --noisy-warnings -c -H -f "$ARCHIVE" /home/andrew/Maildir/
-```
+{% endhighlight %}
 
 (N.B.: to restore, you need to know the exact filename.)
 
