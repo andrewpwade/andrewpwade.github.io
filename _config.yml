@@ -1,7 +1,6 @@
 # SITE CONFIGURATION
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://example.com" # the base hostname & protocol for your site
-excerpt_separator: ""
 
 # THEME-SPECIFIC CONFIGURATION
 theme:
