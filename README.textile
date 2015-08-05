@@ -1,4 +1,2 @@
 Source files of andrewwade.co.uk
 
-
-Based on https://github.com/mojombo/mojombo.github.io (thanks!)
