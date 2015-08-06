@@ -21,7 +21,7 @@ distributions these days and quite simple to set up and configure.
 
 Below are some notes on running your personal mail server.
 
-# Deliverability #
+### Deliverability ###
 
 It is worth nothing that running your own mail server means that at
 some point you will encounter problems delivering email to your
@@ -35,19 +35,19 @@ The most basic of steps to take include:
  - Ensuring your reverse DNS record is set up correctly.
  - Setting up SPF records.
 
-# Security
+### Security ###
 
 I decided I only wanted to communicate with my mail server over
 encrypted channels so I configured IMAP with SSL on port 993 and
 ESMTP (submission, on port 587).
 
-# Spam
+### Spam ###
 
 I actually receive surprisingly little spam but I decided to integrate
 SpamAssassin anyway. With little free RAM and low volumes of mail, you
 can set spamd's max-children to 1.
 
-# Backups
+### Backups ###
 
 With providers such as Gmail, Hotmail and Yahoo, you expect them to
 take care of the availability of your email. When you run your own
@@ -85,7 +85,7 @@ echo $ARCHIVE
 
 (N.B.: to restore, you need to know the exact filename.)
 
-# Summary
+### Summary
 
 I am under no illusion that my data is more hidden from governments
 nor that my data is any more private due to it being hosted on a

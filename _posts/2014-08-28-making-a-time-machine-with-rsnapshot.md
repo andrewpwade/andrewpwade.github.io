@@ -26,7 +26,7 @@ Tools required:
  - cryptsetup
 <p></p>
 
-## Create RAID and encrypted device ##
+### Create RAID and encrypted device ###
 
 I'll assume you have 2 or more partitions formatted as type 'fd' (Linux RAID autodetect). In this example I'll use /dev/sdb1 and /dev/sdc1 to form /dev/md0:
 
@@ -64,7 +64,7 @@ mount /dev/mapper/backup01 /mnt/backup01
 
 Optionally, adjust `/etc/mdadm/mdadm.conf` so that the new array is started on boot. The command `mdadm --detail --scan` will output the required configuration that needs to be appended to mdadm.conf, but be careful, as it outputs configuration for all arrays.
 
-# Rsnapshot #
+### Rsnapshot ###
 
 Install it:
 
