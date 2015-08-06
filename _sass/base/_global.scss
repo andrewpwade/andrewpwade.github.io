@@ -108,6 +108,9 @@ a {
   color: $link-color;
   text-decoration: none;
 }
+a:hover {
+  text-decoration: underline;
+}
 .nav {
   list-style: none;
   margin: 0;
