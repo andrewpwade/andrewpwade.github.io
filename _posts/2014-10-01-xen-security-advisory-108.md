@@ -3,7 +3,7 @@ title: Xen Security Advisory 108
 layout: post
 ---
 
-Today the embargo was lifted on Xen Security Advisory 108 (CVE-2014-7188). The full list of advisories can be seen at [here](http://xenbits.xen.org/xsa/).
+Today the embargo was lifted on Xen Security Advisory 108 (CVE-2014-7188). The full list of advisories can be seen [here](http://xenbits.xen.org/xsa/).
 
 I could not help but be reminded of Theo de Raadt's forthright quote from 2006:
 
