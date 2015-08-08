@@ -5,6 +5,7 @@
 }
 html {
   background: $background-color;
+  font-weight: 300;
 }
 
 // Typography
@@ -97,6 +98,7 @@ p, ol, ul, dl, .math-display {
 }
 ol, ul {
   list-style-position: inside;
+  margin-left: 1.2em;
 }
 hr {
   border: 0;
@@ -125,4 +127,14 @@ img[align=left] {
 }
 img[align=right] {
   margin-left: 3%;
+}
+
+.call-out h1,
+.call-out h2,
+.call-out h3,
+.call-out h4,
+.call-out h5,
+.call-out h6 {
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
 }

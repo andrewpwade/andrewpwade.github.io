@@ -47,6 +47,8 @@ header {
     @extend %padding-regular;
   }
 }
+.post-content { margin-top: 1.5em; }
+
 // Post navigation
 #post-nav {
   width:100%;
