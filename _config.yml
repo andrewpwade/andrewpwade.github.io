@@ -43,7 +43,7 @@ theme:
 
   # Scripts
   google_analytics: UA-50894189-1
-  disqus_shortname:
+  disqus_shortname: andrewwadecouk
   katex: true # Enable if using math markup
 
   # Localization strings
@@ -60,7 +60,7 @@ theme:
   
   
   # Post navigation
-  post_navigation: true
+  post_navigation: false
 
 # PAGINATION
 paginate: 5
