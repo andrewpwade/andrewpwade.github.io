@@ -15,7 +15,7 @@ git clone https://github.com/zealdocs/zeal
 cd zeal
 ~~~
 
-The `src/src.pro` file needs the following lines added to ensure libarchive is included:
+Patch `src/src.pro`. Add the following lines near the top of the file:
 
 ~~~
 INCLUDEPATH += /usr/local/opt/libarchive/include
