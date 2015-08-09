@@ -4,7 +4,9 @@ layout: post
 excerpt: ""
 ---
 
-![Zeal](http://i.imgur.com/aY5eU1y.png)
+<div style="text-align: center; margin: 0 auto;">
+<img src="http://i.imgur.com/aY5eU1y.png" />
+</div>
 
 Make sure Xcode is installed (the full package, not just the command line tools). This can be installed from the App Store.
 
