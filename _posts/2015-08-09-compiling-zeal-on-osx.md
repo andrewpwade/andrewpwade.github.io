@@ -26,7 +26,7 @@ LIBS += -L/usr/local/opt/libarchive/lib -larchive
 Now run the following (it ensures proper clean-up between compilation attempts):
 
 ~~~
-( cd src && make clean ) ; make clean ; rm -rf bin ; /usr/local//Cellar/qt52/5.2.1/bin/qmake && make
+( cd src && make clean ) ; make clean ; rm -rf bin ; /usr/local/Cellar/qt52/5.2.1/bin/qmake && make
 ~~~
 
 Open the application:
