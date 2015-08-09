@@ -14,7 +14,7 @@ theme:
   # Header and footer text
   header_text: >
      <h3>Andrew Wade</h3>
-     <h5>Software Developer, DevOps Enthusiast & Traveler</h5>
+     <h5>Software Developer, DevOps Enthusiast & Traveller</h5>
   header_text_feature_image:
   footer_text: >
    © Andrew Wade 2014 - 2015 <p>Powered by <a href="http://jekyllrb.com">Jekyll</a> with <a href="https://rohanchandra.github.io/project/type/">Type Theme</a></p>
