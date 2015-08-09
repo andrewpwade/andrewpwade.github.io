@@ -4,6 +4,8 @@ layout: post
 excerpt: ""
 ---
 
+![Zeal](http://i.imgur.com/8m4clL9.png)
+
 Make sure Xcode is installed (the full package, not just the command line tools). This can be installed from the App Store.
 
 Next, assuming homebrew is already installed:
