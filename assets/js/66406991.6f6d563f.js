@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkandrewwade_co_uk=self.webpackChunkandrewwade_co_uk||[]).push([[110],{711:e=>{e.exports=JSON.parse('{"permalink":"/blog/tags/hello","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
